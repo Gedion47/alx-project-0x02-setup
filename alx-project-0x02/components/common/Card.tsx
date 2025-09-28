@@ -1,4 +1,4 @@
-import type { CardProps } from "@/interfaces";
+import type { CardProps } from "@/interfaces"; /* import { type CardProps } */
 import Image from "next/image";
 
 const Card: React.FC<CardProps> = ({
