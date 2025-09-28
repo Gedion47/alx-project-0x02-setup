@@ -58,3 +58,8 @@ export interface ModalProps {
   onClose: () => void;
   children: React.ReactNode;
 }
+export interface PostData {
+  title: string;
+  body: string;
+  userId: number;
+}
