@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 interface HeaderProps {}
 
@@ -9,28 +10,28 @@ const Header: React.FC<HeaderProps> = () => {
         <div className="flex justify-between items-center h-16">
           {/* Site Logo/Name Area */}
           <div className="flex-shrink-0">
-            <a
+            <Link
               href="/"
               className="text-2xl font-extrabold text-indigo-600 tracking-tight transition duration-150 hover:text-indigo-800"
             >
               My App
-            </a>
+            </Link>
           </div>
 
           {/* Navigation Links */}
           <nav className="flex space-x-6">
-            <a
+            <Link
               href="/home"
               className="text-gray-600 font-medium hover:text-indigo-600 transition duration-150 p-2 rounded-lg"
             >
               Home
-            </a>
-            <a
+            </Link>
+            <Link
               href="/about"
               className="text-gray-600 font-medium hover:text-indigo-600 transition duration-150 p-2 rounded-lg"
             >
               About
-            </a>
+            </Link>
             {/* You can add more links here, like /contact or /services */}
           </nav>
         </div>
