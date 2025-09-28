@@ -4,6 +4,7 @@ import Header from "@/components/layout/Header";
 const WelcomePage: React.FC = () => {
   return (
     <div className="welcome-container">
+      <Header />
       <header className="welcome-header">
         <h1>Welcome to My App!</h1>
       </header>

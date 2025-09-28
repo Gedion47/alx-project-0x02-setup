@@ -20,19 +20,16 @@ const Header: React.FC<HeaderProps> = () => {
 
           {/* Navigation Links */}
           <nav className="flex space-x-6">
-            <Link
-              href="/home"
-              className="text-gray-600 font-medium hover:text-indigo-600 transition duration-150 p-2 rounded-lg"
-            >
-              Home
+            <Link href="/home">
+              <span className="text-gray-600 font-medium hover:text-indigo-600 transition duration-150 p-2 rounded-lg">
+                Home
+              </span>
             </Link>
-            <Link
-              href="/about"
-              className="text-gray-600 font-medium hover:text-indigo-600 transition duration-150 p-2 rounded-lg"
-            >
-              About
+            <Link href="/about">
+              <span className="text-gray-600 font-medium hover:text-indigo-600 transition duration-150 p-2 rounded-lg">
+                About
+              </span>
             </Link>
-            {/* You can add more links here, like /contact or /services */}
           </nav>
         </div>
       </div>
