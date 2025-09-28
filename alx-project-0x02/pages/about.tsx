@@ -1,8 +1,10 @@
 import React from "react";
 import Button from "@/components/common/Button";
+import Header from "@/components/layout/Header";
 
 export const About: React.FC = () => (
   <>
+    <Header />
     <div className="p-8 bg-white rounded-xl shadow-lg mt-8">
       <h2 className="text-3xl font-bold text-gray-800 mb-4">
         About Our Project

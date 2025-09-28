@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Card from "@/components/common/Card";
 import PostModal from "@/components/common/PostModal";
 import { CardProps } from "@/interfaces";
+import Header from "@/components/layout/Header";
 
 const Home: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -14,6 +15,7 @@ const Home: React.FC = () => {
   return (
     <div className="p-8">
       {/* Example static card */}
+      <Header />
       <Card
         title="Beautiful Apartment"
         location="New York, NY"
