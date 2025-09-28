@@ -322,3 +322,4 @@ export const PostModal: React.FC<PostModalProps> = ({
     </Modal>
   );
 };
+export default PostModal;
